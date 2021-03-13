@@ -1,0 +1,54 @@
+body {
+  background-color: white;
+  color: #303030;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+main {
+  background-color: #f5eff5;
+  margin: 20px auto;
+  width: 70%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0 gray;
+  font-size: 20px;
+}
+
+#name {
+  width: 12%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#message {
+  width: 78%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+button {
+  float: right;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+ul {
+  padding: 0;
+}
+
+li {
+  border: solid 1px #6e456e;
+  list-style-type: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  height: auto;
+  border-radius: 10px;
+}
+
+li:nth-child(odd) {
+  background: #b082b0;
+}
